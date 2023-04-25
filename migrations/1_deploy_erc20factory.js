@@ -1,6 +1,8 @@
 const CloneFactory = artifacts.require("CloneFactory");
 const ERC20Template = artifacts.require("ERC20Template");
 const ERC20Factory = artifacts.require("ERC20Factory");
+const MintableERC20Template = artifacts.require("InitializableMintableERC20");
+
 
 
 module.exports = async (deployer, network, accounts) => {
